@@ -1,0 +1,14 @@
+prefix=/home/aliang/FFmpeg/x86_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 56.40.101
+Requires: libavcodec >= 56.60.100, libswresample >= 1.2.101, libavutil >= 54.31.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -lavicap32 -lgdi32 -lpsapi -lole32 -lstrmiids -luuid -loleaut32 -lshlwapi -lws2_32 -L/usr/x86_64-w64-mingw32/lib -lmingw32 -lSDLmain -lSDL -mwindows -lm -luser32 -lgdi32 -lwinmm -ldxguid -mconsole -L/usr/x86_64-w64-mingw32/lib -lx265 -L/usr/local/lib -lx264 -L/usr/x86_64-w64-mingw32/lib -lspeex -L/usr/x86_64-w64-mingw32/lib -lopus -L/usr/x86_64-w64-mingw32/lib -lopenh264 -lmp3lame -L/usr/x86_64-w64-mingw32/lib -lmfx -lstdc++ -L/usr/x86_64-w64-mingw32/lib -lfdk-aac -lm -lbz2 -lz -lpsapi -ladvapi32 -lshell32
+Libs.private: 
+Cflags: -I${includedir}
