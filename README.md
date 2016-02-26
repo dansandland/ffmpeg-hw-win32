@@ -1,5 +1,5 @@
 # ffmpeg-hw-win32
-ffmpeg 2.8.5  
+ffmpeg 3.0  
 gcc 5.3.0  
 --enable-nvenc              nvidia_video_sdk_6.0.1  
 --enable-libmfx             Intel(R)_Media_SDK_2016.0.1   
@@ -10,9 +10,9 @@ gcc 5.3.0
 --enable-libx265            1.8  
 --enable-libopus            1.1.2  
 --enable-libmp3lame         3.99.5  
-
+--enable-libkvazaar         0.8.2
  ```
- ./configure --prefix=/home/aliang/FFmpeg/x86_64 --enable-small --disable-debug --disable-doc --arch=x86_64 --cc='ccache x86_64-w64-mingw32-gcc' --cross-prefix=x86_64-w64-mingw32- --enable-cross-compile --target-os=mingw32 --enable-libfdk-aac --enable-libmp3lame --enable-libopus --enable-libspeex --enable-libx264 --enable-libx265 --enable-libmfx --enable-nvenc --enable-libopenh264 --enable-gpl --enable-nonfree
+ ./configure --prefix=/home/aliang/FFmpeg/x86_64 --enable-small --disable-debug --disable-doc --arch=x86_64 --cc='ccache x86_64-w64-mingw32-gcc' --cross-prefix=x86_64-w64-mingw32- --enable-cross-compile --target-os=mingw32 --enable-libfdk-aac --enable-libmp3lame --enable-libopus --enable-libspeex --enable-libx264 --enable-libx265 --enable-libmfx --enable-nvenc --enable-libopenh264 --enable-libkvazaar --enable-gpl --enable-nonfree
 ```
 ![img]
 
