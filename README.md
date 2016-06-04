@@ -16,4 +16,10 @@ gcc 5.3.0
 ```
 ![img]
 
+# Usage
+
+`git clone https://github.com/dansandland/ffmpeg-hw-win32.git && cd ffmpeg-hw-win32\x86_64\bin`
+
+`ffmpeg -y -i sample.mp4 -vcodec nvenc -pix_fmt nv12 -f mp4 sample-out-nvenc.mp4`
+
 [img]:https://raw.githubusercontent.com/illuspas/ffmpeg-hw-win32/master/h264-encoders.png
