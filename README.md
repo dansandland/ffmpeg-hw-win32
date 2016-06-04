@@ -16,7 +16,7 @@ gcc 5.3.0
 ```
 ![img]
 
-# Usage
+# Usage (Windows)
 
 `git clone https://github.com/dansandland/ffmpeg-hw-win32.git && cd ffmpeg-hw-win32\x86_64\bin`
 
